@@ -1,0 +1,53 @@
+clear
+[H[2J[3J./unit.exe
+TEST PRD1	PRD2	PRD3	BV[1]	BV[2]		SUM_PRDS SUM_GHOLS	ACT_BATCH EXP_BATCH
+num_pos_prds=1	 sum_pos_prds=   5.00	 num_neg_prds=1	 sum_gas_gv=   3.00
+140 - ethanol_gv =    0.00
+140 - ethanol_gv =    5.00
+(0) [   5.00   -2.00    5.00]	[  -2.00   10.05]	[   8.00    8.05]	[   8.05    8.05]
+
+num_pos_prds=1	 sum_pos_prds=  10.00	 num_neg_prds=0	 sum_gas_gv=  10.00
+140 - ethanol_gv =    0.00
+140 - ethanol_gv =    5.00
+(1) [   5.00    0.00   10.00]	[   0.00   15.07]	[  15.00   15.07]	[  15.07   15.05]
+
+num_pos_prds=1	 sum_pos_prds=  10.00	 num_neg_prds=0	 sum_gas_gv=  10.00
+140 - ethanol_gv =    5.00
+140 - ethanol_gv =    0.00
+(2) [   5.00   10.00    0.00]	[  15.07    0.00]	[  15.00   15.07]	[  15.07   15.05]
+
+num_pos_prds=0	 sum_pos_prds=   0.00	 num_neg_prds=0	 sum_gas_gv=   0.00
+113 - ethanol_gv =    0.00
+113 - ethanol_gv =    0.00
+(3) [   5.00    0.00    0.00]	[   0.00    0.00]	[   5.00    0.00]	[   0.00    5.00]
+
+num_pos_prds=0	 sum_pos_prds=   0.00	 num_neg_prds=2	 sum_gas_gv= -10.00
+164 - ethanol_gv =    2.50
+164 - ethanol_gv =    2.50
+(4) [   5.00   -5.00   -5.00]	[  -2.50   -2.50]	[  -5.00   -5.00]	[  -5.00   -5.00]
+
+num_pos_prds=1	 sum_pos_prds=   5.00	 num_neg_prds=1	 sum_gas_gv=  -2.00
+164 - ethanol_gv =    5.00
+164 - ethanol_gv =    0.00
+(5) [   5.00    5.00   -7.00]	[  10.05   -7.00]	[   3.00    3.05]	[   3.05    3.05]
+
+num_pos_prds=1	 sum_pos_prds=   5.00	 num_neg_prds=1	 sum_gas_gv=  -2.00
+164 - ethanol_gv =    0.00
+164 - ethanol_gv =    5.00
+(6) [   5.00   -7.00    5.00]	[  -7.00   10.05]	[   3.00    3.05]	[   3.05    3.05]
+
+num_pos_prds=0	 sum_pos_prds=   0.00	 num_neg_prds=1	 sum_gas_gv= -10.00
+164 - ethanol_gv =   -0.00
+164 - ethanol_gv =    5.00
+(7) [   5.00    0.00  -10.00]	[   0.00   -5.00]	[  -5.00   -5.00]	[  -5.00   -5.00]
+
+num_pos_prds=0	 sum_pos_prds=   0.00	 num_neg_prds=1	 sum_gas_gv= -10.00
+164 - ethanol_gv =    5.00
+164 - ethanol_gv =   -0.00
+(8) [   5.00  -10.00    0.00]	[  -5.00    0.00]	[  -5.00   -5.00]	[  -5.00   -5.00]
+
+num_pos_prds=1	 sum_pos_prds=   5.00	 num_neg_prds=1	 sum_gas_gv=   0.00
+113 - ethanol_gv =    5.00
+113 - ethanol_gv =    0.00
+(9) [   5.00    5.00   -5.00]	[  10.05   -5.00]	[   5.00    5.05]	[   5.05    5.05]
+
